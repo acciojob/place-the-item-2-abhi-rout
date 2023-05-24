@@ -1,2 +1,14 @@
-
-/* Your CSS Code here. */
+.holder{
+    background-color: black;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    height:300px;
+    flex-wrap: wrap;
+}
+.holder>div{
+    background-color: blue;
+    width:10%;
+    height:40%;
+}
